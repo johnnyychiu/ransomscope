@@ -1,0 +1,28 @@
+RansomScope usability review — 29 October 2026
+
+Scope: desktop safe-demo workflow, browser replay, recovery evidence, and memory experiments.
+Goal: a first-time user can identify the current state, the next useful action, and the limits of the result.
+
+Before-change observations (captured during this review):
+1. Desktop Overview: audit-before-overview.png. The user had completed a restore, but monitoring and worker labels competed with a success note at the bottom. There was no prominent next action. The read-only versus disposable-lab distinction was present but secondary.
+2. Desktop Memory: audit-before-desktop.png. The sample result was genuine and bounded, but the previous restore success leaked into the unrelated page footer. Technical language dominated the primary result.
+3. Browser Overview: audit-before-web-overview.png. At 839px viewport width, controls were cramped and four metric columns were hard to read. The replay state existed but did not provide a clear sequence for a beginner.
+4. Browser Incident: audit-before-web.png. The timeline was inspectable, but technical warnings repeated around it and the recovery next step was not visible in this captured viewport.
+
+Implemented changes:
+- Desktop five-step guide: create disposable files, run demo, review warning/changes, restore and verify, open the result folder.
+- Browser four-step guide: choose evidence, replay, review the result, check recovery evidence. Each state supplies an appropriate action.
+- Page-scoped messages, explicit busy/error feedback, a terminal restore-complete state, and truthful disabled worker controls.
+- Plain-language primary results with technical material behind expandable controls. Synthetic-memory and browser capability limits remain visible.
+- Responsive browser controls and two/one-column metrics, stable event-button identities and preserved focus/scroll during replay refresh.
+- Shared per-file recovery states computed from actual local checks, with a last-check timestamp; imported declarations cannot authenticate their own verification flags.
+
+Evidence limits:
+Screenshots support visual hierarchy and wording findings. They do not establish complete accessibility compliance, assistive-technology support, production safety, or usability success with representative users. The Windows Compose accessibility tree exposed window controls but not the internal UI in this test environment; full screen-reader support is not claimed. Keyboard, responsive and flow checks are recorded separately in TEST-REPORT.md. Captures are in docs/captures/.
+
+Verified final flow and screenshot index:
+1. Start/preparation — working: desktop-overview.png, desktop-lab-ready.png, web-overview.png. A single prominent next action introduces the demo/replay.
+2. Observe/review — working: desktop-paused.png, desktop-incidents.png, web-incident.png. The desktop shows its owned worker paused; browser incident reasons precede settings.
+3. Restore — working within the desktop lab: desktop-restored.png. 24/24 checked copies and the check time are visible; browser does not claim it has backup files or can restore.
+4. Understand experimental results — working: desktop-memory.png, desktop-memory-erased.png, web-memory-present.png, web-memory-erased.png. Positive and negative fixture states explain their meaning without a restore message from another page.
+5. Recover from mistakes / narrow view — working in bounded checks: web-invalid-import.png, web-narrow.png, web-desktop-import.png. Invalid input preserves prior evidence; narrow layout has no page-level overflow; imported events remain labelled as imported.

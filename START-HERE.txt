@@ -1,0 +1,49 @@
+RansomScope — 開始使用
+
+呢個係 Kotlin Multiplatform 比賽原型，包含 Windows 桌面版、網頁版、原始碼、測試紀錄同 3 分鐘 demo。
+目前未建立公開 GitHub repository，亦未正式提交比賽。
+
+1. 睇 demo
+開 RansomScope-demo.mp4；同名 .srt 係英文字幕。
+影片用實際 app 畫面剪輯並加說明字幕，唔係連續即時錄屏。
+畫面分清楚實際桌面觀察、合成事件重播及合成記憶體實驗。
+
+2. 開 Windows 桌面版
+完整解壓 RansomScope-Windows-x64.zip，唔好只拎走個 exe。
+喺解壓後 RansomScope 資料夾雙擊 RansomScope.exe。
+包內已有 Java runtime，唔使另外裝 Java。請保留 app 同 runtime 資料夾。
+首次試用建議按「Create safe demo」，再執行 app 自己建立嘅一次性 lab，
+睇事件、合作式暫停同還原結果；唔會用真 ransomware。
+監察你自行選擇嘅資料夾屬被動觀察，唔代表可以自動識別或終止改檔程序。
+
+3. 開網頁版
+解壓 RansomScope-Web.zip，進入 RansomScope-Web 資料夾。
+如電腦已有 Python 3，雙擊 Start-Web-Demo.cmd。
+瀏覽器會開 http://127.0.0.1:8766/ ，本機 server 只綁定 loopback。
+完成後喺 server 視窗按 Ctrl+C 停止。呢個 script 唔安裝程式、唔開雲端服務、唔設自動啟動。
+如果未有 Python 3，script 會提示，唔會自動安裝。可先睇 MP4 demo，
+或者由熟悉本機工具嘅人使用其他靜態 HTTP server 開啟呢個資料夾。
+可試 Rapid file changes、Normal archive creation、Slow changes 同 Memory lab，
+亦可匯入 samples 資料夾內嘅事件 JSON。網頁版唔能夠監察 OS 或讀取真實程序 RAM。
+
+4. 理解結果
+警報係啟發式規則提示，唔係證明有 malware，亦唔係通用防勒索疫苗。
+Memory lab 只掃描生成嘅 AES 合成資料，唔係真實 RAM 擷取或任意 ransomware 解密。
+復原示範依賴事前 snapshot，還原到新資料夾再核對 SHA-256；本機副本唔係不可破壞備份。
+測試有公開記錄誤報同漏報，詳情見 TEST-REPORT.md／原始碼包 docs/TEST-REPORT.md。
+
+5. 原始碼及參賽材料
+解壓 RansomScope-Source.zip，按 README.md 用 JDK 17+、Gradle wrapper 建置。
+Windows source build 嘅工具鏈／符號連結可能需要 Developer Mode 或管理員權限；
+遇到權限問題可先用上面已建置嘅桌面包，唔好停用安全保護。
+公開原始碼採 MIT License；第三方依賴仍按各自授權。
+docs/SUBMISSION-ESSAY-300-WORDS.txt 係獨立、可複製嘅 300 字英文介紹。
+原始碼包另有 SUBMISSION-ESSAY.txt，分隔線以下係 AI 協作及本人審閱提醒，
+唔好連提醒一齊當成 300 字 essay 貼上。
+開發及文字有 AI 協助，請你本人審閱內容、權利及實測結果。
+
+Kotlin 比賽截止：2026年12月7日晚上10:59，英國 GMT。
+之後需由你審閱、將可公開嘅原始碼放上 GitHub，並親自喺官方表格提交 repository link 同 essay。
+本機 ZIP／demo 唔等於已公開或已報名成功。
+官方：https://kotlinconf.com/contest/
+規則：https://kotlinconf.com/contest-rules/

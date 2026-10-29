@@ -1,0 +1,122 @@
+[
+    {
+        "atMs": 0,
+        "path": "photos/holiday-0.jpg",
+        "kind": "RENAME",
+        "bytes": 4096,
+        "entropyBefore": 7.6,
+        "entropyAfter": 7.6,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 120,
+        "path": "photos/holiday-1.jpg",
+        "kind": "RENAME",
+        "bytes": 4096,
+        "entropyBefore": 7.6,
+        "entropyAfter": 7.6,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 240,
+        "path": "photos/holiday-2.jpg",
+        "kind": "RENAME",
+        "bytes": 4096,
+        "entropyBefore": 7.6,
+        "entropyAfter": 7.6,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 360,
+        "path": "photos/holiday-3.jpg",
+        "kind": "RENAME",
+        "bytes": 4096,
+        "entropyBefore": 7.6,
+        "entropyAfter": 7.6,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 480,
+        "path": "photos/holiday-4.jpg",
+        "kind": "RENAME",
+        "bytes": 4096,
+        "entropyBefore": 7.6,
+        "entropyAfter": 7.6,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 600,
+        "path": "photos/holiday-5.jpg",
+        "kind": "RENAME",
+        "bytes": 4096,
+        "entropyBefore": 7.6,
+        "entropyAfter": 7.6,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 720,
+        "path": "photos/holiday-6.jpg",
+        "kind": "RENAME",
+        "bytes": 4096,
+        "entropyBefore": 7.6,
+        "entropyAfter": 7.6,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 840,
+        "path": "photos/holiday-7.jpg",
+        "kind": "RENAME",
+        "bytes": 4096,
+        "entropyBefore": 7.6,
+        "entropyAfter": 7.6,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 960,
+        "path": "photos/holiday-8.jpg",
+        "kind": "RENAME",
+        "bytes": 4096,
+        "entropyBefore": 7.6,
+        "entropyAfter": 7.6,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 1080,
+        "path": "photos/holiday-9.jpg",
+        "kind": "RENAME",
+        "bytes": 4096,
+        "entropyBefore": 7.6,
+        "entropyAfter": 7.6,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    }
+]

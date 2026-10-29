@@ -1,0 +1,122 @@
+[
+    {
+        "atMs": 0,
+        "path": "documents/shared-0.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 2.5,
+        "entropyAfter": 7.8,
+        "canary": false,
+        "source": "synthetic",
+        "actor": "trace-worker-0",
+        "attribution": "provided-by-replay"
+    },
+    {
+        "atMs": 150,
+        "path": "documents/shared-1.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 2.5,
+        "entropyAfter": 7.8,
+        "canary": false,
+        "source": "synthetic",
+        "actor": "trace-worker-1",
+        "attribution": "provided-by-replay"
+    },
+    {
+        "atMs": 300,
+        "path": "documents/shared-2.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 2.5,
+        "entropyAfter": 7.8,
+        "canary": false,
+        "source": "synthetic",
+        "actor": "trace-worker-2",
+        "attribution": "provided-by-replay"
+    },
+    {
+        "atMs": 450,
+        "path": "documents/shared-3.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 2.5,
+        "entropyAfter": 7.8,
+        "canary": false,
+        "source": "synthetic",
+        "actor": "trace-worker-0",
+        "attribution": "provided-by-replay"
+    },
+    {
+        "atMs": 600,
+        "path": "documents/shared-4.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 2.5,
+        "entropyAfter": 7.8,
+        "canary": false,
+        "source": "synthetic",
+        "actor": "trace-worker-1",
+        "attribution": "provided-by-replay"
+    },
+    {
+        "atMs": 750,
+        "path": "documents/shared-5.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 2.5,
+        "entropyAfter": 7.8,
+        "canary": false,
+        "source": "synthetic",
+        "actor": "trace-worker-2",
+        "attribution": "provided-by-replay"
+    },
+    {
+        "atMs": 900,
+        "path": "documents/shared-6.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 2.5,
+        "entropyAfter": 7.8,
+        "canary": false,
+        "source": "synthetic",
+        "actor": "trace-worker-0",
+        "attribution": "provided-by-replay"
+    },
+    {
+        "atMs": 1050,
+        "path": "documents/shared-7.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 2.5,
+        "entropyAfter": 7.8,
+        "canary": false,
+        "source": "synthetic",
+        "actor": "trace-worker-1",
+        "attribution": "provided-by-replay"
+    },
+    {
+        "atMs": 1200,
+        "path": "documents/shared-8.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 2.5,
+        "entropyAfter": 7.8,
+        "canary": false,
+        "source": "synthetic",
+        "actor": "trace-worker-2",
+        "attribution": "provided-by-replay"
+    },
+    {
+        "atMs": 1350,
+        "path": "documents/shared-9.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 2.5,
+        "entropyAfter": 7.8,
+        "canary": false,
+        "source": "synthetic",
+        "actor": "trace-worker-0",
+        "attribution": "provided-by-replay"
+    }
+]

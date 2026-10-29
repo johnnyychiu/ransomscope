@@ -1,0 +1,122 @@
+[
+    {
+        "atMs": 0,
+        "path": "documents/large-0.bin",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 5.2,
+        "entropyAfter": 5.7,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 180,
+        "path": "documents/large-1.bin",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 5.2,
+        "entropyAfter": 5.7,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 360,
+        "path": "documents/large-2.bin",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 5.2,
+        "entropyAfter": 5.7,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 540,
+        "path": "documents/large-3.bin",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 5.2,
+        "entropyAfter": 5.7,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 720,
+        "path": "documents/large-4.bin",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 5.2,
+        "entropyAfter": 5.7,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 900,
+        "path": "documents/large-5.bin",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 5.2,
+        "entropyAfter": 5.7,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 1080,
+        "path": "documents/large-6.bin",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 5.2,
+        "entropyAfter": 5.7,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 1260,
+        "path": "documents/large-7.bin",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 5.2,
+        "entropyAfter": 5.7,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 1440,
+        "path": "documents/large-8.bin",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 5.2,
+        "entropyAfter": 5.7,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 1620,
+        "path": "documents/large-9.bin",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 5.2,
+        "entropyAfter": 5.7,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    }
+]

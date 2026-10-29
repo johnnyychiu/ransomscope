@@ -1,0 +1,26 @@
+[
+    {
+        "atMs": 1793269103629,
+        "path": "outputs/notes.zip",
+        "kind": "CREATE",
+        "bytes": 0,
+        "entropyBefore": null,
+        "entropyAfter": 0.0,
+        "canary": false,
+        "source": "live",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 1793269103652,
+        "path": "outputs/notes.zip",
+        "kind": "MODIFY",
+        "bytes": 4903,
+        "entropyBefore": 0.0,
+        "entropyAfter": 6.162748778135176,
+        "canary": false,
+        "source": "live",
+        "actor": null,
+        "attribution": "unknown"
+    }
+]

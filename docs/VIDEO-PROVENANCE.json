@@ -1,0 +1,151 @@
+{
+  "product": "RansomScope",
+  "format": "Edited sequence of real application screenshots with explanatory captions",
+  "duration_seconds": 180,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "frames_per_second": 15,
+  "audio": "No audio track; no voice or live-narration claim",
+  "disclosure": "Edited walkthrough · synthetic lab data · actual application screens",
+  "not_continuous_or_live_capture": true,
+  "synthetic_data_only": true,
+  "real_malware_used": false,
+  "live_process_memory_capture_demonstrated": false,
+  "image_processing": "Complete UI screenshots resized proportionally and letterboxed. No UI elements fabricated, retouched or overlaid.",
+  "claim_scope": "The 2-write pause and 24/24 restore captions refer only to the captured, parent-verified disposable lab run. Memory scanner captures show synthetic fixtures, not system RAM.",
+  "scenes": [
+    {
+      "scene": 1,
+      "id": "title",
+      "start_seconds": 0,
+      "duration_seconds": 8,
+      "title": "RansomScope",
+      "caption": "A clearer path from suspicious file changes to verified recovery evidence.",
+      "source": null,
+      "source_sha256": null,
+      "rendered_frame": "work/ransomscope-video/frames/01-title.png",
+      "rendered_frame_sha256": "56b23d8b8e99dfcd328ca96eb69c2573e16a645c5235b3850d30cb26a606a547"
+    },
+    {
+      "scene": 2,
+      "id": "desktop-overview",
+      "start_seconds": 8,
+      "duration_seconds": 14,
+      "title": "Start with the evidence.",
+      "caption": "The desktop workspace separates monitoring, incidents, recovery and the experimental memory lab.",
+      "source": "outputs/ransomscope/docs/captures/desktop-overview.png",
+      "source_sha256": "4035ca612838b5abfa0e82fb0cf64f7da8f270491ef842b4ef386621e8524e63",
+      "rendered_frame": "work/ransomscope-video/frames/02-desktop-overview.png",
+      "rendered_frame_sha256": "0234802d2a115e6bb04b04d29f19ecc08fef4c01c1ddcc01f2e1bc4f9367181a"
+    },
+    {
+      "scene": 3,
+      "id": "desktop-paused",
+      "start_seconds": 22,
+      "duration_seconds": 20,
+      "title": "Observe actual changes. Pause the owned worker.",
+      "caption": "This disposable-file run recorded two worker writes. Pause is cooperative IPC, not arbitrary-process suspension.",
+      "source": "outputs/ransomscope/docs/captures/desktop-paused.png",
+      "source_sha256": "201bbc7578661d9a075ab111b2d0537b9ff180dac08f0b751e749d20632702d8",
+      "rendered_frame": "work/ransomscope-video/frames/03-desktop-paused.png",
+      "rendered_frame_sha256": "52f9439cf33130fb829283d2a2c5bf6100971c7b9bad30395f7a4f6eedea896d"
+    },
+    {
+      "scene": 4,
+      "id": "desktop-incidents",
+      "start_seconds": 42,
+      "duration_seconds": 20,
+      "title": "An alert should explain itself.",
+      "caption": "Review the event timeline and rule explanations. An unknown writer PID remains unknown.",
+      "source": "outputs/ransomscope/docs/captures/desktop-incidents.png",
+      "source_sha256": "6937c43e3ff974dd2447a2b2a24a77d497ce03a40003ced09630c7f361e236da",
+      "rendered_frame": "work/ransomscope-video/frames/04-desktop-incidents.png",
+      "rendered_frame_sha256": "5a129f9c78c6389c9aae3a109ff996aaea7fc4afadcf384ec350d56794ca3c09"
+    },
+    {
+      "scene": 5,
+      "id": "desktop-restored",
+      "start_seconds": 62,
+      "duration_seconds": 22,
+      "title": "Restore into a new folder. Verify every file.",
+      "caption": "This run restored 24 of 24 lab files with matching SHA-256 hashes. Local snapshots are not tamper-proof backups.",
+      "source": "outputs/ransomscope/docs/captures/desktop-restored.png",
+      "source_sha256": "287518f69ac113378b16711801db63033bb215e3c0f02aad344496367529188b",
+      "rendered_frame": "work/ransomscope-video/frames/05-desktop-restored.png",
+      "rendered_frame_sha256": "5b32c768e292cc7650629ee2925e9ce0e2476f4d088d5e343c615eccb9cf50fc"
+    },
+    {
+      "scene": 6,
+      "id": "web-overview",
+      "start_seconds": 84,
+      "duration_seconds": 16,
+      "title": "One Kotlin engine. Two useful applications.",
+      "caption": "The browser runs the same shared analysis logic locally. It cannot monitor your operating system.",
+      "source": "outputs/ransomscope/docs/captures/web-overview.png",
+      "source_sha256": "78318211c03b83fb6d001309ef17f3dac171c448ffdd141efceaab66b1d35661",
+      "rendered_frame": "work/ransomscope-video/frames/06-web-overview.png",
+      "rendered_frame_sha256": "9757dfdf19578af9197dfa56003e914ca3029df748996a8ef3df6264d7b03a1a"
+    },
+    {
+      "scene": 7,
+      "id": "web-incident",
+      "start_seconds": 100,
+      "duration_seconds": 18,
+      "title": "Replay the incident. Compare the rules.",
+      "caption": "Inspect synthetic event evidence and baseline explanations without a cloud service or uploaded files.",
+      "source": "outputs/ransomscope/docs/captures/web-incident.png",
+      "source_sha256": "89ad4bb5ce9082d230d1a141f0942b00f621f57a831076001d3d52062dcec1ae",
+      "rendered_frame": "work/ransomscope-video/frames/07-web-incident.png",
+      "rendered_frame_sha256": "d15da5f90d9bc115fa19844fb374166c2ab8a56de97bd0a4cda94e450a5bc4d6"
+    },
+    {
+      "scene": 8,
+      "id": "web-memory-present",
+      "start_seconds": 118,
+      "duration_seconds": 20,
+      "title": "Test the supported key-recovery structure.",
+      "caption": "The real shared scanner analyzes a generated AES fixture. This is synthetic-memory validation, not live RAM capture.",
+      "source": "outputs/ransomscope/docs/captures/web-memory-present.png",
+      "source_sha256": "e20a3bd7386a1fc3ef597d44553a77a8572cb2c34e74fe646754d4053703b157",
+      "rendered_frame": "work/ransomscope-video/frames/08-web-memory-present.png",
+      "rendered_frame_sha256": "4d8ed9dea228826a6b6918a710521f5191b4ca8aa373f84467a7a93fc34d722c"
+    },
+    {
+      "scene": 9,
+      "id": "web-memory-erased",
+      "start_seconds": 138,
+      "duration_seconds": 16,
+      "title": "A useful tool must also show failure.",
+      "caption": "When the supported structure is erased, no supported candidate is found. A raw random key has no universal signature.",
+      "source": "outputs/ransomscope/docs/captures/web-memory-erased.png",
+      "source_sha256": "9dea82caefa25bb7b2d7384855747e76f396f32a2d3b4d76ed1be4a438afe0b3",
+      "rendered_frame": "work/ransomscope-video/frames/09-web-memory-erased.png",
+      "rendered_frame_sha256": "458f8c4ca49ff93399c171eed1812eb476f86ec8ca4c67590019fe9c370e067c"
+    },
+    {
+      "scene": 10,
+      "id": "closing",
+      "start_seconds": 154,
+      "duration_seconds": 26,
+      "title": "Clear boundaries. Reproducible evidence.",
+      "caption": "Desktop observation and snapshot recovery · browser replay · shared Kotlin analysis and synthetic memory lab.",
+      "source": "outputs/ransomscope/docs/captures/desktop-memory.png",
+      "source_sha256": "51ca885e85db61e27a91189eee1b6a90e41eae846bf7212dab007be1702e0b7d",
+      "rendered_frame": "work/ransomscope-video/frames/10-closing.png",
+      "rendered_frame_sha256": "d4952fccacc538c4e195b5fe349af4d8eaba57556dce1367d8ffd8b2b749d893"
+    }
+  ],
+  "encoding": {
+    "codec": "libx264",
+    "pixel_format": "yuv420p",
+    "crf": 22,
+    "preset": "medium",
+    "faststart": true
+  },
+  "encoded_video": "outputs/RansomScope-demo.mp4",
+  "encoded_video_sha256": "46d4d82c68dfb1d2d86c9f1906832410bba95526d0b18a59e127253a72b2eafa",
+  "encoded_video_bytes": 1681898,
+  "duration_verified_by_ffmpeg": true
+}

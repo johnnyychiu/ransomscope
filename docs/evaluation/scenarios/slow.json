@@ -1,0 +1,98 @@
+[
+    {
+        "atMs": 0,
+        "path": "documents/slow-0.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 2.5,
+        "entropyAfter": 7.8,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 4000,
+        "path": "documents/slow-1.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 2.5,
+        "entropyAfter": 7.8,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 8000,
+        "path": "documents/slow-2.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 2.5,
+        "entropyAfter": 7.8,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 12000,
+        "path": "documents/slow-3.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 2.5,
+        "entropyAfter": 7.8,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 16000,
+        "path": "documents/slow-4.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 2.5,
+        "entropyAfter": 7.8,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 20000,
+        "path": "documents/slow-5.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 2.5,
+        "entropyAfter": 7.8,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 24000,
+        "path": "documents/slow-6.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 2.5,
+        "entropyAfter": 7.8,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 28000,
+        "path": "documents/slow-7.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 2.5,
+        "entropyAfter": 7.8,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    }
+]

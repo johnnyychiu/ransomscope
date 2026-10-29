@@ -1,0 +1,98 @@
+[
+    {
+        "atMs": 0,
+        "path": "notes/day-0.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 3.4,
+        "entropyAfter": 3.6,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 3000,
+        "path": "notes/day-1.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 3.4,
+        "entropyAfter": 3.6,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 6000,
+        "path": "notes/day-2.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 3.4,
+        "entropyAfter": 3.6,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 9000,
+        "path": "notes/day-3.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 3.4,
+        "entropyAfter": 3.6,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 12000,
+        "path": "notes/day-4.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 3.4,
+        "entropyAfter": 3.6,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 15000,
+        "path": "notes/day-5.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 3.4,
+        "entropyAfter": 3.6,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 18000,
+        "path": "notes/day-6.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 3.4,
+        "entropyAfter": 3.6,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 21000,
+        "path": "notes/day-7.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 3.4,
+        "entropyAfter": 3.6,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    }
+]

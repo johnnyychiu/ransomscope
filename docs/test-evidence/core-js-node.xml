@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ransomscope.core.CoreTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-10-29T10:18:45.427Z" hostname="DESKTOP-JLPPSRP" time="0.017">
+  <properties/>
+  <testcase name="burstAlertsButCompressionAndRenameDoNotProduceCombinedAlerts[js, node]" classname="ransomscope.core.CoreTest" time="0.002"/>
+  <testcase name="baselineFalsePositivesAndBlindSpotsAreVisible[js, node]" classname="ransomscope.core.CoreTest" time="0.0"/>
+  <testcase name="duplicateNotificationsDoNotInflateCountsOrSizes[js, node]" classname="ransomscope.core.CoreTest" time="0.0"/>
+  <testcase name="orderingDoesNotChangeResults[js, node]" classname="ransomscope.core.CoreTest" time="0.001"/>
+  <testcase name="overflowIsDegradedAndNotAChangedFile[js, node]" classname="ransomscope.core.CoreTest" time="0.0"/>
+  <testcase name="unknownWriterIsNotPromotedToProcessAttribution[js, node]" classname="ransomscope.core.CoreTest" time="0.001"/>
+  <testcase name="noCrossGapEvidenceCombination[js, node]" classname="ransomscope.core.CoreTest" time="0.0"/>
+  <testcase name="strictImportsRejectUnknownFieldsAndInvalidValues[js, node]" classname="ransomscope.core.CoreTest" time="0.004"/>
+  <testcase name="eventsRoundTrip[js, node]" classname="ransomscope.core.CoreTest" time="0.003"/>
+  <testcase name="entropyBoundaries[js, node]" classname="ransomscope.core.CoreTest" time="0.0"/>
+  <testcase name="aesMatchesFips197KnownAnswer[js, node]" classname="ransomscope.core.CoreTest" time="0.001"/>
+  <testcase name="memoryLabFindsRandomlyPlacedSchedulesAndRejectsNegatives[js, node]" classname="ransomscope.core.CoreTest" time="0.003"/>
+  <testcase name="memoryScannerRejectsNoiseAndSmallInputs[js, node]" classname="ransomscope.core.CoreTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

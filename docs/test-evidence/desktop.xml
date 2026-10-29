@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ransomscope.desktop.BackendTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-29T10:18:51.501Z" hostname="DESKTOP-JLPPSRP" time="0.433">
+  <properties/>
+  <testcase name="packagedWorkerUsesItsOwnLauncherWithoutRequiringRuntimeJava" classname="ransomscope.desktop.BackendTest" time="0.028"/>
+  <testcase name="tamperedSnapshotAndForgedWorkerTokenAreRejected" classname="ransomscope.desktop.BackendTest" time="0.124"/>
+  <testcase name="snapshotRestorePreservesOriginalEvidenceAndUsesFreshDirectories" classname="ransomscope.desktop.BackendTest" time="0.183"/>
+  <testcase name="newlyArrivingDirectoryIsRegisteredAndCoverageGapDisclosed" classname="ransomscope.desktop.BackendTest" time="0.059"/>
+  <testcase name="sourceWorkerUsesTheJavaClasspathLauncher" classname="ransomscope.desktop.BackendTest" time="0.001"/>
+  <testcase name="passiveWatcherDoesNotInventPidOrCanaryDesignation" classname="ransomscope.desktop.BackendTest" time="0.036"/>
+  <testcase name="refusedSpecialPathDoesNotTraverseIt" classname="ransomscope.desktop.BackendTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

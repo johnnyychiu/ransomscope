@@ -1,0 +1,14 @@
+I am Chun Yin Chiu, a software and security engineer interested in making incident response understandable. I earned an MSc in Advanced Cyber Security with Distinction from King's College London in February 2026, following full-time study through December 2025, and a BEng in Information Engineering from the Chinese University of Hong Kong in 2019. My experience includes Python, C#, .NET, API security testing, source code review, and published ransomware research.
+
+RansomScope is a new Kotlin Multiplatform project created for this competition. It turns file-change observations into an understandable investigation and recovery workflow. Rather than promising a universal ransomware vaccine, it shows what was observed, why a rule triggered, which evidence is missing, and what recovery options are available.
+
+The desktop application monitors a selected folder. Its ordinary file watcher cannot reliably identify the writer or intercept writes before damage occurs. Unknown attribution therefore remains explicit. A separate, disposable laboratory demonstrates cooperative pausing of our own worker, never arbitrary process containment. Snapshots taken before laboratory changes can be restored into a new directory and checked against recorded hashes.
+
+The browser application runs the same Kotlin analysis engine to replay incidents, compare detector settings, and inspect recovery readiness. Shared event models, sliding-window rules, explanations, and synthetic experiments make cross-platform reuse substantive rather than cosmetic.
+
+An optional memory laboratory searches synthetic byte fixtures for AES-128 expanded-key structures and validates candidates against an encrypted sample block. It does not claim to capture live memory, recover arbitrary ransomware keys, or authenticate recovered files.
+
+I chose Kotlin to connect a desktop workflow with an accessible browser demonstration while keeping their reasoning consistent. The project prioritizes clear limitations, inspectable decisions, reproducible examples, and useful failure states. My goal is to help users understand the difference between suspicious activity, preserved evidence, and verified recovery before taking consequential action.
+
+--- OUTSIDE THE 300-WORD ESSAY: AUTHOR REVIEW NOTE ---
+Development and writing assisted by AI tools; applicant must review and ensure own original rights; no false solo-handcoded claim.

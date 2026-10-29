@@ -1,0 +1,266 @@
+{
+  "recordedAtUtc": "2026-10-29T10:20:50.389969+00:00",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "logicalProcessors": 20,
+  "physicalMemoryBytes": 68475985920,
+  "method": "Sequential cold executable launches of one fixed 24-file synthetic lab. Nearest-rank percentiles. 20 ms process-tree sampling. Not real malware or interactive UI latency.",
+  "limits": "RSS sums may double-count shared pages. Sampling misses short-lived processes and final counters. CPU/I/O include startup, hash verification, restoration and tamper checks; not steady-state overhead. Reported file sizes are not exact overwritten bytes or permanent loss. Labs are retained for inspection.",
+  "alertP50Ms": 198,
+  "alertP95Ms": 208,
+  "pauseP50Ms": 380,
+  "pauseP95Ms": 389,
+  "runs": [
+    {
+      "run": 1,
+      "alertMs": 198,
+      "pauseMs": 378,
+      "writesAtAlert": 2,
+      "writesAtPause": 2,
+      "observedAtAlert": {
+        "paths": 2,
+        "wholeFileSizeBytes": 7236
+      },
+      "observedAtPause": {
+        "paths": 2,
+        "wholeFileSizeBytes": 7236
+      },
+      "wallSeconds": 1.937000000005355,
+      "sampledPeakProcessTreeRssBytes": 150278144,
+      "sampledCpuSeconds": 1.71875,
+      "sampledReadBytes": 14972898,
+      "sampledWriteBytes": 278163,
+      "passedChecks": 5
+    },
+    {
+      "run": 2,
+      "alertMs": 196,
+      "pauseMs": 374,
+      "writesAtAlert": 2,
+      "writesAtPause": 2,
+      "observedAtAlert": {
+        "paths": 2,
+        "wholeFileSizeBytes": 7236
+      },
+      "observedAtPause": {
+        "paths": 2,
+        "wholeFileSizeBytes": 7236
+      },
+      "wallSeconds": 1.9069999999919673,
+      "sampledPeakProcessTreeRssBytes": 150339584,
+      "sampledCpuSeconds": 1.359375,
+      "sampledReadBytes": 14972943,
+      "sampledWriteBytes": 278116,
+      "passedChecks": 5
+    },
+    {
+      "run": 3,
+      "alertMs": 208,
+      "pauseMs": 389,
+      "writesAtAlert": 2,
+      "writesAtPause": 2,
+      "observedAtAlert": {
+        "paths": 2,
+        "wholeFileSizeBytes": 7236
+      },
+      "observedAtPause": {
+        "paths": 2,
+        "wholeFileSizeBytes": 7236
+      },
+      "wallSeconds": 1.937000000005355,
+      "sampledPeakProcessTreeRssBytes": 149438464,
+      "sampledCpuSeconds": 1.578125,
+      "sampledReadBytes": 14972943,
+      "sampledWriteBytes": 278114,
+      "passedChecks": 5
+    },
+    {
+      "run": 4,
+      "alertMs": 205,
+      "pauseMs": 388,
+      "writesAtAlert": 2,
+      "writesAtPause": 2,
+      "observedAtAlert": {
+        "paths": 2,
+        "wholeFileSizeBytes": 7236
+      },
+      "observedAtPause": {
+        "paths": 2,
+        "wholeFileSizeBytes": 7236
+      },
+      "wallSeconds": 1.9220000000059372,
+      "sampledPeakProcessTreeRssBytes": 149176320,
+      "sampledCpuSeconds": 1.5,
+      "sampledReadBytes": 14972943,
+      "sampledWriteBytes": 278118,
+      "passedChecks": 5
+    },
+    {
+      "run": 5,
+      "alertMs": 204,
+      "pauseMs": 387,
+      "writesAtAlert": 2,
+      "writesAtPause": 2,
+      "observedAtAlert": {
+        "paths": 2,
+        "wholeFileSizeBytes": 7236
+      },
+      "observedAtPause": {
+        "paths": 2,
+        "wholeFileSizeBytes": 7236
+      },
+      "wallSeconds": 1.9219999999913853,
+      "sampledPeakProcessTreeRssBytes": 150171648,
+      "sampledCpuSeconds": 1.359375,
+      "sampledReadBytes": 14972943,
+      "sampledWriteBytes": 278118,
+      "passedChecks": 5
+    },
+    {
+      "run": 6,
+      "alertMs": 202,
+      "pauseMs": 383,
+      "writesAtAlert": 2,
+      "writesAtPause": 2,
+      "observedAtAlert": {
+        "paths": 2,
+        "wholeFileSizeBytes": 7236
+      },
+      "observedAtPause": {
+        "paths": 2,
+        "wholeFileSizeBytes": 7236
+      },
+      "wallSeconds": 1.9060000000026776,
+      "sampledPeakProcessTreeRssBytes": 150212608,
+      "sampledCpuSeconds": 1.359375,
+      "sampledReadBytes": 14972943,
+      "sampledWriteBytes": 278116,
+      "passedChecks": 5
+    },
+    {
+      "run": 7,
+      "alertMs": 205,
+      "pauseMs": 386,
+      "writesAtAlert": 2,
+      "writesAtPause": 2,
+      "observedAtAlert": {
+        "paths": 2,
+        "wholeFileSizeBytes": 7236
+      },
+      "observedAtPause": {
+        "paths": 2,
+        "wholeFileSizeBytes": 7236
+      },
+      "wallSeconds": 1.9060000000026776,
+      "sampledPeakProcessTreeRssBytes": 148733952,
+      "sampledCpuSeconds": 1.28125,
+      "sampledReadBytes": 14972943,
+      "sampledWriteBytes": 278114,
+      "passedChecks": 5
+    },
+    {
+      "run": 8,
+      "alertMs": 196,
+      "pauseMs": 374,
+      "writesAtAlert": 2,
+      "writesAtPause": 2,
+      "observedAtAlert": {
+        "paths": 2,
+        "wholeFileSizeBytes": 7236
+      },
+      "observedAtPause": {
+        "paths": 2,
+        "wholeFileSizeBytes": 7236
+      },
+      "wallSeconds": 1.937999999994645,
+      "sampledPeakProcessTreeRssBytes": 149561344,
+      "sampledCpuSeconds": 1.5,
+      "sampledReadBytes": 14972943,
+      "sampledWriteBytes": 278118,
+      "passedChecks": 5
+    },
+    {
+      "run": 9,
+      "alertMs": 198,
+      "pauseMs": 379,
+      "writesAtAlert": 2,
+      "writesAtPause": 2,
+      "observedAtAlert": {
+        "paths": 2,
+        "wholeFileSizeBytes": 7236
+      },
+      "observedAtPause": {
+        "paths": 2,
+        "wholeFileSizeBytes": 7236
+      },
+      "wallSeconds": 1.9220000000059372,
+      "sampledPeakProcessTreeRssBytes": 150089728,
+      "sampledCpuSeconds": 1.546875,
+      "sampledReadBytes": 14972943,
+      "sampledWriteBytes": 278118,
+      "passedChecks": 5
+    },
+    {
+      "run": 10,
+      "alertMs": 195,
+      "pauseMs": 376,
+      "writesAtAlert": 2,
+      "writesAtPause": 2,
+      "observedAtAlert": {
+        "paths": 2,
+        "wholeFileSizeBytes": 7236
+      },
+      "observedAtPause": {
+        "paths": 2,
+        "wholeFileSizeBytes": 7236
+      },
+      "wallSeconds": 1.9369999999908032,
+      "sampledPeakProcessTreeRssBytes": 149872640,
+      "sampledCpuSeconds": 1.453125,
+      "sampledReadBytes": 14972943,
+      "sampledWriteBytes": 278114,
+      "passedChecks": 5
+    },
+    {
+      "run": 11,
+      "alertMs": 204,
+      "pauseMs": 387,
+      "writesAtAlert": 2,
+      "writesAtPause": 2,
+      "observedAtAlert": {
+        "paths": 2,
+        "wholeFileSizeBytes": 7236
+      },
+      "observedAtPause": {
+        "paths": 2,
+        "wholeFileSizeBytes": 7236
+      },
+      "wallSeconds": 1.9690000000118744,
+      "sampledPeakProcessTreeRssBytes": 149860352,
+      "sampledCpuSeconds": 1.40625,
+      "sampledReadBytes": 14972943,
+      "sampledWriteBytes": 278116,
+      "passedChecks": 5
+    },
+    {
+      "run": 12,
+      "alertMs": 198,
+      "pauseMs": 380,
+      "writesAtAlert": 2,
+      "writesAtPause": 2,
+      "observedAtAlert": {
+        "paths": 2,
+        "wholeFileSizeBytes": 7236
+      },
+      "observedAtPause": {
+        "paths": 2,
+        "wholeFileSizeBytes": 7236
+      },
+      "wallSeconds": 1.937999999994645,
+      "sampledPeakProcessTreeRssBytes": 149676032,
+      "sampledCpuSeconds": 1.546875,
+      "sampledReadBytes": 14972943,
+      "sampledWriteBytes": 278110,
+      "passedChecks": 5
+    }
+  ]
+}

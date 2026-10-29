@@ -1,0 +1,86 @@
+[
+    {
+        "atMs": 0,
+        "path": "private/tax-0.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 2.5,
+        "entropyAfter": 7.8,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 220,
+        "path": "private/tax-1.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 2.5,
+        "entropyAfter": 7.8,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 440,
+        "path": "private/tax-2.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 2.5,
+        "entropyAfter": 7.8,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 660,
+        "path": "private/tax-3.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 2.5,
+        "entropyAfter": 7.8,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 880,
+        "path": "private/tax-4.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 2.5,
+        "entropyAfter": 7.8,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 1100,
+        "path": "private/tax-5.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 2.5,
+        "entropyAfter": 7.8,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 1320,
+        "path": "private/tax-6.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 2.5,
+        "entropyAfter": 7.8,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    }
+]

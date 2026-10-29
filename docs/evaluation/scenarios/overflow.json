@@ -1,0 +1,38 @@
+[
+    {
+        "atMs": 0,
+        "path": "documents/first.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 2.5,
+        "entropyAfter": 7.8,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 100,
+        "path": "",
+        "kind": "OVERFLOW",
+        "bytes": 0,
+        "entropyBefore": null,
+        "entropyAfter": null,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 200,
+        "path": "documents/second.txt",
+        "kind": "MODIFY",
+        "bytes": 4096,
+        "entropyBefore": 2.5,
+        "entropyAfter": 7.8,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    }
+]

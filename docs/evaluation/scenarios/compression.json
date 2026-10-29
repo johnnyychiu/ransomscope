@@ -1,0 +1,98 @@
+[
+    {
+        "atMs": 0,
+        "path": "archives/photos-0.zip",
+        "kind": "CREATE",
+        "bytes": 4096,
+        "entropyBefore": null,
+        "entropyAfter": 7.9,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 130,
+        "path": "archives/photos-1.zip",
+        "kind": "CREATE",
+        "bytes": 4096,
+        "entropyBefore": null,
+        "entropyAfter": 7.9,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 260,
+        "path": "archives/photos-2.zip",
+        "kind": "CREATE",
+        "bytes": 4096,
+        "entropyBefore": null,
+        "entropyAfter": 7.9,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 390,
+        "path": "archives/photos-3.zip",
+        "kind": "CREATE",
+        "bytes": 4096,
+        "entropyBefore": null,
+        "entropyAfter": 7.9,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 520,
+        "path": "archives/photos-4.zip",
+        "kind": "CREATE",
+        "bytes": 4096,
+        "entropyBefore": null,
+        "entropyAfter": 7.9,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 650,
+        "path": "archives/photos-5.zip",
+        "kind": "CREATE",
+        "bytes": 4096,
+        "entropyBefore": null,
+        "entropyAfter": 7.9,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 780,
+        "path": "archives/photos-6.zip",
+        "kind": "CREATE",
+        "bytes": 4096,
+        "entropyBefore": null,
+        "entropyAfter": 7.9,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 910,
+        "path": "archives/photos-7.zip",
+        "kind": "CREATE",
+        "bytes": 4096,
+        "entropyBefore": null,
+        "entropyAfter": 7.9,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    }
+]

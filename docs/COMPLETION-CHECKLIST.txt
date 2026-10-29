@@ -1,0 +1,28 @@
+RansomScope — local competition delivery checklist
+29 October 2026
+
+DONE — Windows desktop application with bundled runtime. Passive selected-folder observations stay separate from the generated disposable lab. Notifications with unknown writer identity remain unknown.
+DONE — Kotlin/JS browser application. Imports, replay, settings comparisons, explanations and synthetic memory experiments execute locally using the shared Kotlin core.
+DONE — Shared event/configuration/analysis types, rules, entropy calculation, fixture scanner, snapshot manifest and explicit recovery-readiness states. Imported verification declarations cannot promote themselves to local verification results.
+DONE — Pre-change lab snapshots, owned child worker, cooperative pause, restoration to a new directory, per-file SHA-256 checks and retained evidence. No arbitrary process is killed or suspended.
+DONE — Clear guided workflows and next actions, visible current state, page-scoped feedback, input-error recovery, responsive browser controls, expandable advanced details, positive and negative memory examples.
+DONE — 46 automated test executions (29 distinct test functions) across JVM, Kotlin/JS and desktop. Packaged integration and actual UI flows checked separately.
+DONE — Fixed-config synthetic comparisons across four baseline modes and 108 seeded traces per mode, with false positives/misses published. Four real benign I/O controls and 12 repeated packaged lab runs add bounded evidence.
+DONE — Recorded end-to-end lab alert/pause percentiles, changes observed before those points, restored hashes, sampled process-tree resources, and logical workspace measurements. Measurements identify their scope and limitations.
+DONE — MIT source, English README/build instructions, exact 300-word essay, research references, evidence, launch instructions, Windows/web/source ZIPs and local submission pack.
+DONE — Three-minute edited demo of real app screens, captions, subtitles and screenshot/hash provenance. It is explicitly disclosed as edited still captures, not a continuous screen recording.
+
+VALIDATION LIMITS, not silently claimed complete:
+- No representative production false-alert-per-hour study, unseen-ransomware-family evaluation, or guaranteed detection. Four roughly five-second benign controls do not establish an hourly production rate. Combined rules still miss slow/partial synthetic changes and alert on authorized encryption.
+- Resource samples cover bounded whole-check/harness activity, not steady-state production overhead. CPU/GPU/system-wide accuracy or all-device performance is not claimed.
+- Windows desktop was exercised; Linux/macOS execution and exhaustive browser/accessibility certification were not performed. The tested Compose accessibility tree did not expose internal app controls, so full screen-reader support is unverified.
+- The memory fixture check uses AES sample-block validation, not authenticated file decryption. Live child-process RAM capture, arbitrary memory scanning, kernel drivers and system-wide pre-write prevention are explicitly optional future gates and are not implemented.
+
+EXTERNAL STEPS NOT DONE:
+- No public GitHub repository or hosted demo has been published from this local package.
+- No competition form, new Terms acceptance or final entry has been submitted. The original approved scope requests submission materials; the official contest rule requires the entrant's final manual submission. Review rights, eligibility and the current official rules before publishing/submitting.
+
+Official contest: https://kotlinconf.com/contest/
+Rules: https://kotlinconf.com/contest-rules/
+Detailed evidence: TEST-REPORT.md, evaluation/, benign-evidence/, packaged-evidence/ and test-evidence/.
+Generated archive hashes and contents: RELEASE-MANIFEST.json.

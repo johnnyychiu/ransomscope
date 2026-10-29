@@ -1,0 +1,19 @@
+RansomScope desktop integration checks
+Recorded: 2026-10-29T10:20:42.565659200Z
+Platform: Windows 11 / Java 17.0.20.1
+Synthetic disposable-file experiment. Not real malware validation.
+PASS | pre-change snapshot | 24 disposable files; all snapshot SHA-256 values validated
+PASS | live directory observations and cooperative pause | 4 real notifications; 2 worker writes before acknowledged pause
+PASS | restore into a fresh directory | 24/24 files SHA-256 verified
+PASS | reject a tampered snapshot | Tampering rejected before restore
+PASS | reject a forged lab identity | Worker refuses mismatched token
+Single-run timings (not distribution statistics):
+First worker write epoch ms: 1793269241484
+First observed alert epoch ms: 1793269241680
+Cooperative pause acknowledgement epoch ms: 1793269241858
+First write to alert ms: 196
+First write to pause acknowledgement ms: 374
+Evaluator worker writes timestamped before/equal alert: 2
+Evaluator worker writes timestamped before/equal pause acknowledgement: 2
+Notification bytes are observed whole-file sizes, not exact overwritten-byte counts.
+Lab retained at <local-temporary-lab>; no user documents were modified.

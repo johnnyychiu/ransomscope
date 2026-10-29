@@ -1,0 +1,50 @@
+[
+    {
+        "atMs": 1793269247285,
+        "path": "canary-00.txt",
+        "kind": "MODIFY",
+        "bytes": 3618,
+        "entropyBefore": 3.9821381051358293,
+        "entropyAfter": 7.949553377809734,
+        "canary": true,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 1793269247292,
+        "path": "canary-00.txt",
+        "kind": "MODIFY",
+        "bytes": 3618,
+        "entropyBefore": 7.949553377809734,
+        "entropyAfter": 7.949553377809734,
+        "canary": true,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 1793269247485,
+        "path": "document-01.txt",
+        "kind": "MODIFY",
+        "bytes": 3618,
+        "entropyBefore": 3.9821381051358293,
+        "entropyAfter": 7.942386236975516,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    },
+    {
+        "atMs": 1793269247492,
+        "path": "document-01.txt",
+        "kind": "MODIFY",
+        "bytes": 3618,
+        "entropyBefore": 7.942386236975516,
+        "entropyAfter": 7.942386236975516,
+        "canary": false,
+        "source": "synthetic",
+        "actor": null,
+        "attribution": "unknown"
+    }
+]

@@ -1,0 +1,275 @@
+{
+    "schemaVersion": 1,
+    "purpose": "JVM-to-browser shared-core parity fixture",
+    "events": [
+        {
+            "atMs": 0,
+            "path": "documents/report-1.txt",
+            "kind": "MODIFY",
+            "bytes": 4096,
+            "entropyBefore": 2.5,
+            "entropyAfter": 7.8,
+            "canary": false,
+            "source": "synthetic",
+            "actor": null,
+            "attribution": "unknown"
+        },
+        {
+            "atMs": 160,
+            "path": "documents/report-2.txt",
+            "kind": "MODIFY",
+            "bytes": 4096,
+            "entropyBefore": 2.5,
+            "entropyAfter": 7.8,
+            "canary": false,
+            "source": "synthetic",
+            "actor": null,
+            "attribution": "unknown"
+        },
+        {
+            "atMs": 320,
+            "path": "documents/report-3.txt",
+            "kind": "MODIFY",
+            "bytes": 4096,
+            "entropyBefore": 2.5,
+            "entropyAfter": 7.8,
+            "canary": false,
+            "source": "synthetic",
+            "actor": null,
+            "attribution": "unknown"
+        },
+        {
+            "atMs": 480,
+            "path": "documents/report-4.txt",
+            "kind": "MODIFY",
+            "bytes": 4096,
+            "entropyBefore": 2.5,
+            "entropyAfter": 7.8,
+            "canary": true,
+            "source": "synthetic",
+            "actor": null,
+            "attribution": "unknown"
+        },
+        {
+            "atMs": 640,
+            "path": "documents/report-5.txt",
+            "kind": "MODIFY",
+            "bytes": 4096,
+            "entropyBefore": 2.5,
+            "entropyAfter": 7.8,
+            "canary": false,
+            "source": "synthetic",
+            "actor": null,
+            "attribution": "unknown"
+        },
+        {
+            "atMs": 800,
+            "path": "documents/report-6.txt",
+            "kind": "MODIFY",
+            "bytes": 4096,
+            "entropyBefore": 2.5,
+            "entropyAfter": 7.8,
+            "canary": false,
+            "source": "synthetic",
+            "actor": null,
+            "attribution": "unknown"
+        },
+        {
+            "atMs": 960,
+            "path": "documents/report-7.txt",
+            "kind": "MODIFY",
+            "bytes": 4096,
+            "entropyBefore": 2.5,
+            "entropyAfter": 7.8,
+            "canary": false,
+            "source": "synthetic",
+            "actor": null,
+            "attribution": "unknown"
+        },
+        {
+            "atMs": 1120,
+            "path": "documents/report-8.txt",
+            "kind": "MODIFY",
+            "bytes": 4096,
+            "entropyBefore": 2.5,
+            "entropyAfter": 7.8,
+            "canary": false,
+            "source": "synthetic",
+            "actor": null,
+            "attribution": "unknown"
+        },
+        {
+            "atMs": 1280,
+            "path": "documents/report-9.txt",
+            "kind": "MODIFY",
+            "bytes": 4096,
+            "entropyBefore": 2.5,
+            "entropyAfter": 7.8,
+            "canary": false,
+            "source": "synthetic",
+            "actor": null,
+            "attribution": "unknown"
+        },
+        {
+            "atMs": 1440,
+            "path": "documents/report-10.txt",
+            "kind": "MODIFY",
+            "bytes": 4096,
+            "entropyBefore": 2.5,
+            "entropyAfter": 7.8,
+            "canary": false,
+            "source": "synthetic",
+            "actor": null,
+            "attribution": "unknown"
+        },
+        {
+            "atMs": 1600,
+            "path": "documents/report-11.txt",
+            "kind": "MODIFY",
+            "bytes": 4096,
+            "entropyBefore": 2.5,
+            "entropyAfter": 7.8,
+            "canary": false,
+            "source": "synthetic",
+            "actor": null,
+            "attribution": "unknown"
+        },
+        {
+            "atMs": 1760,
+            "path": "documents/report-12.txt",
+            "kind": "MODIFY",
+            "bytes": 4096,
+            "entropyBefore": 2.5,
+            "entropyAfter": 7.8,
+            "canary": false,
+            "source": "synthetic",
+            "actor": null,
+            "attribution": "unknown"
+        }
+    ],
+    "config": {
+        "mode": "combined",
+        "windowMs": 2000,
+        "fileThreshold": 4,
+        "entropyThreshold": 1.5
+    },
+    "expectedAnalysis": {
+        "decisions": [
+            {
+                "atMs": 480,
+                "level": "alert",
+                "reasons": [
+                    "4 distinct changed paths within 2000 ms (threshold 4).",
+                    "4 modified paths increased sampled entropy by at least 1.5 bits/byte; legitimate encryption can also do this.",
+                    "1 designated canary paths changed; this is a warning signal, not proof of malware.",
+                    "Writer identity is unknown for some observations. No process containment is authorized by this result."
+                ],
+                "paths": [
+                    "documents/report-1.txt",
+                    "documents/report-2.txt",
+                    "documents/report-3.txt",
+                    "documents/report-4.txt"
+                ],
+                "bytes": 16384,
+                "source": "synthetic"
+            },
+            {
+                "atMs": 800,
+                "level": "alert",
+                "reasons": [
+                    "6 distinct changed paths within 2000 ms (threshold 4).",
+                    "6 modified paths increased sampled entropy by at least 1.5 bits/byte; legitimate encryption can also do this.",
+                    "1 designated canary paths changed; this is a warning signal, not proof of malware.",
+                    "Writer identity is unknown for some observations. No process containment is authorized by this result."
+                ],
+                "paths": [
+                    "documents/report-1.txt",
+                    "documents/report-2.txt",
+                    "documents/report-3.txt",
+                    "documents/report-4.txt",
+                    "documents/report-5.txt",
+                    "documents/report-6.txt"
+                ],
+                "bytes": 24576,
+                "source": "synthetic"
+            },
+            {
+                "atMs": 1120,
+                "level": "alert",
+                "reasons": [
+                    "8 distinct changed paths within 2000 ms (threshold 4).",
+                    "8 modified paths increased sampled entropy by at least 1.5 bits/byte; legitimate encryption can also do this.",
+                    "1 designated canary paths changed; this is a warning signal, not proof of malware.",
+                    "Writer identity is unknown for some observations. No process containment is authorized by this result."
+                ],
+                "paths": [
+                    "documents/report-1.txt",
+                    "documents/report-2.txt",
+                    "documents/report-3.txt",
+                    "documents/report-4.txt",
+                    "documents/report-5.txt",
+                    "documents/report-6.txt",
+                    "documents/report-7.txt",
+                    "documents/report-8.txt"
+                ],
+                "bytes": 32768,
+                "source": "synthetic"
+            },
+            {
+                "atMs": 1440,
+                "level": "alert",
+                "reasons": [
+                    "10 distinct changed paths within 2000 ms (threshold 4).",
+                    "10 modified paths increased sampled entropy by at least 1.5 bits/byte; legitimate encryption can also do this.",
+                    "1 designated canary paths changed; this is a warning signal, not proof of malware.",
+                    "Writer identity is unknown for some observations. No process containment is authorized by this result."
+                ],
+                "paths": [
+                    "documents/report-1.txt",
+                    "documents/report-10.txt",
+                    "documents/report-2.txt",
+                    "documents/report-3.txt",
+                    "documents/report-4.txt",
+                    "documents/report-5.txt",
+                    "documents/report-6.txt",
+                    "documents/report-7.txt",
+                    "documents/report-8.txt",
+                    "documents/report-9.txt"
+                ],
+                "bytes": 40960,
+                "source": "synthetic"
+            },
+            {
+                "atMs": 1760,
+                "level": "alert",
+                "reasons": [
+                    "12 distinct changed paths within 2000 ms (threshold 4).",
+                    "12 modified paths increased sampled entropy by at least 1.5 bits/byte; legitimate encryption can also do this.",
+                    "1 designated canary paths changed; this is a warning signal, not proof of malware.",
+                    "Writer identity is unknown for some observations. No process containment is authorized by this result."
+                ],
+                "paths": [
+                    "documents/report-1.txt",
+                    "documents/report-10.txt",
+                    "documents/report-11.txt",
+                    "documents/report-12.txt",
+                    "documents/report-2.txt",
+                    "documents/report-3.txt",
+                    "documents/report-4.txt",
+                    "documents/report-5.txt",
+                    "documents/report-6.txt",
+                    "documents/report-7.txt",
+                    "documents/report-8.txt",
+                    "documents/report-9.txt"
+                ],
+                "bytes": 49152,
+                "source": "synthetic"
+            }
+        ],
+        "changedFiles": 12,
+        "changedBytes": 49152,
+        "degraded": false,
+        "firstAlertAtMs": 480,
+        "summary": "Suspicious changes observed. This is a rule-based alert, not a ransomware verdict."
+    }
+}

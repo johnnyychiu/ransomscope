@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ransomscope.core.RecoveryTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-29T10:18:45.444Z" hostname="DESKTOP-JLPPSRP" time="0.0">
+  <properties/>
+  <testcase name="snapshotManifestRoundTripsWithoutClaimingAuthenticity[js, node]" classname="ransomscope.core.RecoveryTest" time="0.0"/>
+  <testcase name="manifestRejectsTraversalDuplicatesAndUnknownVersion[js, node]" classname="ransomscope.core.RecoveryTest" time="0.0"/>
+  <testcase name="importedVerificationFlagsAndSourceStringDoNotPromoteClaims[js, node]" classname="ransomscope.core.RecoveryTest" time="0.0"/>
+  <testcase name="localChecksProduceEvidenceStatesAndKeepCoverageLimits[js, node]" classname="ransomscope.core.RecoveryTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

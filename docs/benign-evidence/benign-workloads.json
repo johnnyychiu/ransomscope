@@ -1,0 +1,197 @@
+{
+    "generatedAtUtc": "2026-10-29T10:18:44.247404100Z",
+    "type": "Actual benign filesystem workloads on application-created disposable documents",
+    "limits": "Four short, single-run controls. Reported exposure is not production prevalence or a population false-alert rate. Resource values describe this harness JVM plus its monitor and workload, not a separate idle GUI.",
+    "resources": "JVM heap is not resident process RAM. CPU time includes the benign operation and observer. No GPU use or system-wide CPU usage is measured.",
+    "disk": "End-of-run logical file sizes, not physical allocated blocks or storage I/O counters. No files are deleted by this harness.",
+    "runs": [
+        {
+            "workload": "compression",
+            "successfulOperation": true,
+            "error": null,
+            "monitorSetupMs": 311.6485,
+            "actualObservedDurationSeconds": 5.0338801,
+            "eventCount": 2,
+            "degraded": false,
+            "healthMessages": [],
+            "processCpuTimeMs": 78.125,
+            "processCpuPercentOneCoreEquivalent": 1.5519837272246513,
+            "jvmHeapBeforeBytes": 8388608,
+            "jvmHeapSampledPeakBytes": 8388608,
+            "logicalWorkspaceBytesAfter": 90721,
+            "inputFileCount": 24,
+            "modes": [
+                {
+                    "mode": "rate",
+                    "alertRecords": 0,
+                    "falseAlertInThisKnownBenignRun": false,
+                    "degraded": false,
+                    "observedPaths": 1
+                },
+                {
+                    "mode": "entropy",
+                    "alertRecords": 1,
+                    "falseAlertInThisKnownBenignRun": true,
+                    "degraded": false,
+                    "observedPaths": 1
+                },
+                {
+                    "mode": "canary",
+                    "alertRecords": 0,
+                    "falseAlertInThisKnownBenignRun": false,
+                    "degraded": false,
+                    "observedPaths": 1
+                },
+                {
+                    "mode": "combined",
+                    "alertRecords": 0,
+                    "falseAlertInThisKnownBenignRun": false,
+                    "degraded": false,
+                    "observedPaths": 1
+                }
+            ],
+            "workspaceRetention": "Retained application-created temp workspace; no user documents or original project files modified"
+        },
+        {
+            "workload": "bulk-rename",
+            "successfulOperation": true,
+            "error": null,
+            "monitorSetupMs": 101.5212,
+            "actualObservedDurationSeconds": 5.0267422,
+            "eventCount": 48,
+            "degraded": false,
+            "healthMessages": [],
+            "processCpuTimeMs": 296.875,
+            "processCpuPercentOneCoreEquivalent": 5.905912580915727,
+            "jvmHeapBeforeBytes": 8388608,
+            "jvmHeapSampledPeakBytes": 16777216,
+            "logicalWorkspaceBytesAfter": 85818,
+            "inputFileCount": 24,
+            "modes": [
+                {
+                    "mode": "rate",
+                    "alertRecords": 12,
+                    "falseAlertInThisKnownBenignRun": true,
+                    "degraded": false,
+                    "observedPaths": 48
+                },
+                {
+                    "mode": "entropy",
+                    "alertRecords": 0,
+                    "falseAlertInThisKnownBenignRun": false,
+                    "degraded": false,
+                    "observedPaths": 48
+                },
+                {
+                    "mode": "canary",
+                    "alertRecords": 0,
+                    "falseAlertInThisKnownBenignRun": false,
+                    "degraded": false,
+                    "observedPaths": 48
+                },
+                {
+                    "mode": "combined",
+                    "alertRecords": 0,
+                    "falseAlertInThisKnownBenignRun": false,
+                    "degraded": false,
+                    "observedPaths": 48
+                }
+            ],
+            "workspaceRetention": "Retained application-created temp workspace; no user documents or original project files modified"
+        },
+        {
+            "workload": "java-build",
+            "successfulOperation": true,
+            "error": null,
+            "monitorSetupMs": 68.5276,
+            "actualObservedDurationSeconds": 5.0388239,
+            "eventCount": 24,
+            "degraded": false,
+            "healthMessages": [],
+            "processCpuTimeMs": 2140.625,
+            "processCpuPercentOneCoreEquivalent": 42.4826317109435,
+            "jvmHeapBeforeBytes": 16777216,
+            "jvmHeapSampledPeakBytes": 33554432,
+            "logicalWorkspaceBytesAfter": 88828,
+            "inputFileCount": 24,
+            "modes": [
+                {
+                    "mode": "rate",
+                    "alertRecords": 3,
+                    "falseAlertInThisKnownBenignRun": true,
+                    "degraded": false,
+                    "observedPaths": 12
+                },
+                {
+                    "mode": "entropy",
+                    "alertRecords": 0,
+                    "falseAlertInThisKnownBenignRun": false,
+                    "degraded": false,
+                    "observedPaths": 12
+                },
+                {
+                    "mode": "canary",
+                    "alertRecords": 0,
+                    "falseAlertInThisKnownBenignRun": false,
+                    "degraded": false,
+                    "observedPaths": 12
+                },
+                {
+                    "mode": "combined",
+                    "alertRecords": 0,
+                    "falseAlertInThisKnownBenignRun": false,
+                    "degraded": false,
+                    "observedPaths": 12
+                }
+            ],
+            "workspaceRetention": "Retained application-created temp workspace; no user documents or original project files modified"
+        },
+        {
+            "workload": "editing",
+            "successfulOperation": true,
+            "error": null,
+            "monitorSetupMs": 55.3128,
+            "actualObservedDurationSeconds": 5.0449392,
+            "eventCount": 20,
+            "degraded": false,
+            "healthMessages": [],
+            "processCpuTimeMs": 93.75,
+            "processCpuPercentOneCoreEquivalent": 1.8582979156616992,
+            "jvmHeapBeforeBytes": 17115648,
+            "jvmHeapSampledPeakBytes": 17115648,
+            "logicalWorkspaceBytesAfter": 86388,
+            "inputFileCount": 24,
+            "modes": [
+                {
+                    "mode": "rate",
+                    "alertRecords": 6,
+                    "falseAlertInThisKnownBenignRun": true,
+                    "degraded": false,
+                    "observedPaths": 4
+                },
+                {
+                    "mode": "entropy",
+                    "alertRecords": 0,
+                    "falseAlertInThisKnownBenignRun": false,
+                    "degraded": false,
+                    "observedPaths": 4
+                },
+                {
+                    "mode": "canary",
+                    "alertRecords": 0,
+                    "falseAlertInThisKnownBenignRun": false,
+                    "degraded": false,
+                    "observedPaths": 4
+                },
+                {
+                    "mode": "combined",
+                    "alertRecords": 0,
+                    "falseAlertInThisKnownBenignRun": false,
+                    "degraded": false,
+                    "observedPaths": 4
+                }
+            ],
+            "workspaceRetention": "Retained application-created temp workspace; no user documents or original project files modified"
+        }
+    ]
+}

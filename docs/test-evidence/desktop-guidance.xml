@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ransomscope.desktop.DesktopGuidanceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-29T10:18:51.935Z" hostname="DESKTOP-JLPPSRP" time="0.017">
+  <properties/>
+  <testcase name="anAlertMustLeadToReviewThenRestore" classname="ransomscope.desktop.DesktopGuidanceTest" time="0.016"/>
+  <testcase name="newUserHasOneCreateThenStartAction" classname="ransomscope.desktop.DesktopGuidanceTest" time="0.0"/>
+  <testcase name="switchingAwayFromALabRequiresANewSafeDemo" classname="ransomscope.desktop.DesktopGuidanceTest" time="0.0"/>
+  <testcase name="stoppedWorkerWithoutAlertDoesNotOfferAnImpossibleRestart" classname="ransomscope.desktop.DesktopGuidanceTest" time="0.0"/>
+  <testcase name="verifiedRestoreIsTerminalEvenIfAnOldRunningFlagRemains" classname="ransomscope.desktop.DesktopGuidanceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ransomscope.core.CoreTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-10-29T10:18:04.367Z" hostname="DESKTOP-JLPPSRP" time="0.099">
+  <properties/>
+  <testcase name="noCrossGapEvidenceCombination[jvm]" classname="ransomscope.core.CoreTest" time="0.045"/>
+  <testcase name="burstAlertsButCompressionAndRenameDoNotProduceCombinedAlerts[jvm]" classname="ransomscope.core.CoreTest" time="0.007"/>
+  <testcase name="eventsRoundTrip[jvm]" classname="ransomscope.core.CoreTest" time="0.021"/>
+  <testcase name="unknownWriterIsNotPromotedToProcessAttribution[jvm]" classname="ransomscope.core.CoreTest" time="0.001"/>
+  <testcase name="overflowIsDegradedAndNotAChangedFile[jvm]" classname="ransomscope.core.CoreTest" time="0.001"/>
+  <testcase name="aesMatchesFips197KnownAnswer[jvm]" classname="ransomscope.core.CoreTest" time="0.004"/>
+  <testcase name="strictImportsRejectUnknownFieldsAndInvalidValues[jvm]" classname="ransomscope.core.CoreTest" time="0.008"/>
+  <testcase name="duplicateNotificationsDoNotInflateCountsOrSizes[jvm]" classname="ransomscope.core.CoreTest" time="0.0"/>
+  <testcase name="orderingDoesNotChangeResults[jvm]" classname="ransomscope.core.CoreTest" time="0.0"/>
+  <testcase name="baselineFalsePositivesAndBlindSpotsAreVisible[jvm]" classname="ransomscope.core.CoreTest" time="0.001"/>
+  <testcase name="memoryLabFindsRandomlyPlacedSchedulesAndRejectsNegatives[jvm]" classname="ransomscope.core.CoreTest" time="0.008"/>
+  <testcase name="memoryScannerRejectsNoiseAndSmallInputs[jvm]" classname="ransomscope.core.CoreTest" time="0.001"/>
+  <testcase name="entropyBoundaries[jvm]" classname="ransomscope.core.CoreTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
